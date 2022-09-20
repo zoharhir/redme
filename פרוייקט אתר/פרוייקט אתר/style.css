@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+margin: 0;
+background-color: #fff;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+justify-content: space-around 40px; 
+width: 100%;
+  }
+nav{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+gap: 30px;
+ background-color:white;
+
+}
+ .nav ul{
+  display: flex;
+  list-style: none;
+
+  padding: 0;
+  font-size: 30px;
+}
+.nav ul a{
+  text-decoration: none;
+}
+.nav_buttons{
+box-sizing: border-box;
+height:100px;
+width: 60%;
+display: flex;
+align-items: center;
+gap:10px;
+padding: 10px;
+border-left: 1px solid black;
+}
+.nav_buttons button{
+  border: none;
+  color: blue;
+  background-color: rgb(244, 180, 156);
+   opacity:4.5;
+font-style: oblique;
+height: 60%;
+width:100%;
+font-style: inherit;
+font-family: Verdana, Geneva, Tahoma, sans-serif bold;
+border-radius: 5%;
+font-weight: 40px;
+
+  border: 1px black;
+margin: 15px;
+}
+.nav_buttons :hover{
+
+  color: black;
+}
+.hero{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.gallery{
+ position: relative;
+padding-left: ;
+}
+.row{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+ img{
+  cursor: pointer;
+  width:250px;
+  scale: 100%;
+
+  transition: all.5s linear;
+  
+}
+img:hover{
+  opacity: .5;
+  scale: 10%;
+}
+.z{
+  position: relative;
+  bottom: -190px;
+  right:200px;
+color: darkred;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: inherit;
+text-align: center;
+padding-left: 20px;
+
+
+}
+.h{
+  position: relative;
+  bottom: -190px;
+  right:200px;
+color: darkred;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: inherit;
+text-align: center;
+text-align: center;
+padding-left: 40px;
+  
+}
+
+
+
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 150px;
+  width: 100vw;
+  font-family: "open sans"; 
+  padding-top:10px;
+ color: aliceblue;
+ padding-bottom: 10px;
+}
+.footer-container{
+  color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.footer-container h3{
+  color: lightblue;
+
+
+}
+.footer-container p{
+max-height:250px;
+margin: 5px auto;
+}
+.social{
+list-style:none;
+display: flex;align-items: center;
+margin: 20px 10px;
+justify-content: center;
+}
+.social li i{
+  font-size: 20px;
+  margin: 10px 10px;
+}
+.social a :hover{
+  color: aqua;
+}
+.nav_logo {
+  width:250px;
+height: 100px;
+  display: flex;
+
+}
